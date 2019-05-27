@@ -148,4 +148,7 @@ client.on("message", msg => {
     }
 });
 
+/*
+    Do NOT share this with anyone else. If compromised, get another one.
+*/
 client.login("CLIENT_TOKEN");
