@@ -117,7 +117,7 @@ client.on("ready", () => {
                 const channel = client.channels.find("name", chnl);
 
                 if (channel) {
-                    channel.send(`@here **${ntfc}** minuutin päästä **${boss_table[date.getDay()][i]}**);
+                    channel.send(`@here **${ntfc}** minuutin päästä **${boss_table[date.getDay()][i]}**`);
                 }
 
                 break;
