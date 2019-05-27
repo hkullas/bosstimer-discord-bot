@@ -15,8 +15,10 @@ __discord.js__ (based on **Discord API**) (https://discord.js.org/#/docs/main/st
 1. Bot (BDO Boss Timer) needs to be invited to your own Discord server.
 2. Start the server: `node bot.js`
 3. Bot knows two different commands;
-  * Channel where the bot messages: `.bt [channel/c] [channel-name]`
-  * Notification time in minutes before the boss spawns: `.bt [notice/n] [minutes]`
+    * Channel where the bot messages: `.bt [channel/c] [channel-name]`
+    * Notification time in minutes before the boss spawns: `.bt [notice/n] [minutes]`
+
+(Currently this bot only works in EU server and UTC+3 time zone.)
 
 # Files
 * "/bot.js"
