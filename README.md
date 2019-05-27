@@ -12,7 +12,7 @@ npm install [package-name] --save
 __discord.js__ (based on **Discord API**) (https://discord.js.org/#/docs/main/stable/general/welcome) is used as well, so you may want to check it out.
 
 # Usage
-First, make sure all the required packages and modules are correctly installed.
+First, make sure all the packages and modules are correctly installed, and the files are in correct directories.
 
 1. Bot (BDO Boss Timer) needs to be invited to your own Discord server.
 2. Start the server: `node bot.js`
