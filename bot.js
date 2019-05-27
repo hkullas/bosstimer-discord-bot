@@ -117,7 +117,7 @@ client.on("ready", () => {
                 const channel = client.channels.find("name", chnl);
 
                 if (channel) {
-                    channel.send(`@here **${ntfc}** minuutin päästä **${boss_table[date.getDay()][i]}**`);
+                    channel.send(`@here **${boss_table[date.getDay()][i]}** in **${ntfc}** minutes.`);
                 }
 
                 break;
@@ -134,14 +134,14 @@ client.on("message", msg => {
         if (message[1].toLowerCase() === "channel" || message[1].toLowerCase() === "c") {
             chnl = message[2];
 
-            msg.channel.send(`Uusi kanava: "**${chnl}**"`);
+            msg.channel.send(`New channel: "**${chnl}**"`);
 
             setTimeout(() => { msg.delete(); }, 1000);
         }
         else if (message[1].toLowerCase() === "notice" || message[1].toLowerCase() === "n") {
             ntfc = message[2];
 
-            msg.channel.send(`Uusi ilmoitusaika: **${ntfc}** minuuttia`);
+            msg.channel.send(`New notification time: **${ntfc}** minutes`);
 
             setTimeout(() => { msg.delete(); }, 1000);
         }
